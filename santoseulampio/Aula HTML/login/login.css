@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*, * ::before,  *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto';
+    color: #262626;
+}
+body{
+    
+    background-color: black;
+    /* depois apagar essa fonte de cor pois não é a que estamos estudando */
+    /* background-color: #f0f0f0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    align-items: center;
+    /* border: red solid 2px; */
+    height: 100dvh;
+}
+main{
+    
+    gap: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafdff;
+
+   /* rem e alguma coisa vezes 4 */
+    padding: 4rem 2rem;
+    width: 28%;
+    border-radius: 1.25rem;
+}
+
+h1{
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 0.75;
+    align-self: center;
+    
+
+
+}
+    h6{
+        font-size: 'Noto Sans';
+        font-size: 0.875rem;
+        font-weight: 300;
+        margin-bottom: 1.75rem;
+        padding-left: 3rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        
+    }
+    .form-div{
+        display: flex;
+        flex-direction:  column;
+        gap: 0.25re;
+    }
+    label{
+        font-size: 0.875rem;
+
+
+
+    }
+    input{
+        height: 2rem;
+        border: solid 1px #cccc;
+        border-radius: 0.25rem;
+        padding-left: 0.75rem;
+        font-family: 'Noto Sans';
+        font-size: 0.75rem;
+        outline: 0;
+
+        
+
+    }
+    input:focus{
+       
+        font-weight: 0 0 2px 1px #60a5da;
+
+
+    }
+    input:hover, input:focus {
+        border: solid 1px #60a5fa;
+        }
+    
+    button{
+        margin-top: 1.5rem;
+        font-size: 0.875rem;
+        font-weight: 500;
+        padding-block: 0.75;
+        background-color: #06f;
+        border: none;
+        color: #fafdff;
+        text-transform: uppercase;
+        line-clamp: ;
+        cursor: pointer;
+        border-radius: 0.25rem;
+    }
+    
+button:focus{
+    background-color: #60a5da (216 , 100%, 40%);
+ 
+}
+button:hover{
+    
+    background-color: #60a5da (216 , 100%, 40%);
+
+}
+
+button:focus,button:hover{
+
+    box-shadow: 0 0 2px 1px #60a5da;
+}
+    a{
+        
+        font-family: Noto sans;
+        font-size: 0.75rem;
+        font-weight: 300;
+        align-self: center;
+        text-decoration: nome;
+    }
+    a:focus, a:hover{
+        text-decoration: underline;
+    }
