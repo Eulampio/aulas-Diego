@@ -105,6 +105,9 @@
         
         border-bottom: solid 1px #ccc;
     }
+    tr:nth-child(even){
+        background-color: coral;
+    }
     tbody:last-child{
       border: none;
       
@@ -114,12 +117,13 @@
 
 
     }
-    td{
+    td {
         font-family: "noto Sans";
         font-weight: 300;
         font-size: 0.875rem;
         border-left: solid 1px #ccc;
         padding-inline: 0.5rem;
+        padding-block: 0.25rem;
 
     }
     td:first-child{
@@ -128,4 +132,18 @@
     }
     .botoes{
         display: flex;
+    }
+    td > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+
+    }
+    .botao-editar{
+        color: #f5960b;
+
+    }
+    .botao-remover{
+        color: #dc2626;
     }
