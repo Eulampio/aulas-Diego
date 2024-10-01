@@ -1,26 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Stencil+One&display=swap');
 
-*,*::after, *::before{
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #528159;
     height: 100dvh;
+    overflow: scroll;
 }
-main{  
-     /* border: solid 1px crimson; */
+
+main {
+    /* border: solid 1px crimson; */
     display: flex;
     align-items: center;
     justify-content: center;
 
     flex-direction: column;
     height: 100%;
-  
+    overflow: hidden;
+
 }
 
-#borda-principal{
+#borda-principal {
+    border-radius: 1rem;
 
     border: 1px solid black;
     display: flex;
@@ -29,23 +36,83 @@ main{
     background-color: aliceblue;
     min-width: 80%;
     align-items: center;
-    
+
 }
-h1{
+
+h1 {
     /* font-size: 600;
     font-size: 1.125rem;
     margin: 3.5rem; */
 
 }
-table{
+
+table {
     background-color: aliceblue;
     min-width: 80%;
     border-collapse: collapse;
+    border-radius: 0.75rem;
+    overflow: hidden;
+
 }
-td{
+
+td {
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     text-align: center;
 }
 
+.icone-svg {
+    width: 0.75rem;
+    color: red;
+    
+    
 
+}
+
+
+.edite-svg {
+    width: 0.75rem;
+    color: darkgoldenrod;
+}
+
+.botao-adicionar {
+    border: none;
+    background-color: aliceblue;
+    height: 1rem;
+    /* color: #fafbff; */
+}
+
+.botao-adicionar01 {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+
+
+}
+.buscar-svg{
+    width: 0.75rem;
+    color: black;
+}
+#input-buscar {
+    display: flex;
+    align-items: center;
+    border: solid 1px #cccccc;
+    padding-inline: 0.5rem;
+
+}
+
+#input-buscar input {
+    border: none;
+    outline: 0;
+    background-color: inherit;
+}
+
+#input-buscar button {
+    border: none;
+    background-color: inherit;
+}
+
+#botao-buscar {
+    display: flex;
+    gap: 0.5rem
+}
